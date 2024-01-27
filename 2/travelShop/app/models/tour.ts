@@ -1,4 +1,4 @@
-import {ITemplate} from "./template";
+import {ITemplateGenerator} from "./template";
 
 export interface ITour {
     description: string,
@@ -9,7 +9,7 @@ export interface ITour {
     tourOperator: string
 }
 
-export class Tour implements ITour, ITemplate {
+export class Tour implements ITour, ITemplateGenerator {
     readonly description: string;
     readonly id: string;
     readonly img: string;

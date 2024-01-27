@@ -1,4 +1,4 @@
-export interface ITemplate {
-
+export interface ITemplateGenerator {
+    id: string;
     generateTemplate(): string
 }

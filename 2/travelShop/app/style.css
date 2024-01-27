@@ -89,7 +89,7 @@ img{
     vertical-align: top;
     margin-top: 5px;
     margin-left: 5px;
-    position: relative;
+    position: absolute;
     height: 490px;
     width: 290px;
 }

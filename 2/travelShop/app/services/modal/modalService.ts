@@ -1,11 +1,11 @@
 import {Modal} from "../../classes/modal.js";
-import {Tour} from "../../models/tour.js";
+import {ITemplateGenerator} from "../../models/template";
 
 export class ModalService {
-    private readonly tours: Tour[];
+    private readonly templateGenerators: ITemplateGenerator[];
 
-    constructor(tours: Tour[]) {
-        this.tours = tours;
+    constructor(templateGenerators: ITemplateGenerator[]) {
+        this.templateGenerators = templateGenerators;
     }
 
     public openModal(id: string) {
@@ -13,9 +13,9 @@ export class ModalService {
             return;
         }
 
-        let tour = this.tours.find(modal => modal.id === id);
-        let template = tour.generateTemplate();
-        let modal = new Modal(tour.id);
+        let templateGenerator = this.templateGenerators.find(generator => generator.id === id);
+        let template = templateGenerator.generateTemplate();
+        let modal = new Modal(templateGenerator.id);
         modal.open(template);
     }
 }
