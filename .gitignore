@@ -1,0 +1,11 @@
+.idea
+1/dist
+1/node_modules
+
+2/travelShop/app/dist
+2/travelShop/app/node_modules
+
+практика 2/node_modules
+
+*.js
+*js.map

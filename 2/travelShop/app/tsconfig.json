@@ -1,0 +1,20 @@
+{
+  "allowJs": true,
+  "compileOnSave": true,
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "es2022",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es2017",
+    "lib": [
+      "ES2021",
+      "dom"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ]
+}

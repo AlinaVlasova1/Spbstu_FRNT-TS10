@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #1F5DA0;
+    margin: 0;
+}
+
+footer{
+    background: #1F5DA0;
+}
+
+h1{
+    horiz-align: center;
+    color: #9DB8D4;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navigation{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.navigation ul{
+    text-decoration: none;
+
+}
+
+.navigation li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation a{
+    color: #9DB8D4;
+    horiz-align: right;
+}
+
+h2{
+    width: 90%;
+    margin-left: 5px;
+    margin-right:  5px;
+}
+
+.card{
+    margin-left: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 10px;
+    position: relative;
+}
+
+.card p{
+    width: 90%;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right:  5px;
+}
+
+img{
+    width: 95%;
+    height: auto;
+    margin-left: 7px;
+}
+
+.price{
+    bottom: 5px;
+}
+
+.modal-element {
+    z-index: 2;
+    background-color: #9DB8D4;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    height: 490px;
+    width: 290px;
+}
+
+.modal-element i {
+    z-index: 3;
+}

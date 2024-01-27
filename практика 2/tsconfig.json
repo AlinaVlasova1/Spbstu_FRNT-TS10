@@ -1,0 +1,19 @@
+{
+  "allowJs": true,
+  "compileOnSave": true,
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ]
+}
